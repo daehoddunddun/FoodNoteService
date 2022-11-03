@@ -1,10 +1,9 @@
 import React, { useState } from "react";
-import { useDispatch, useSelector } from "react-redux";
+import { useSelector } from "react-redux";
 import { Link } from "react-router-dom";
 import UserChart from "./components/UserChart";
 import UserMap from "./components/UserMap";
 import "./Function.scss";
-import { setName } from "../redux/Store";
 
 function Function() {
   const userName = useSelector((state) => {
@@ -12,7 +11,6 @@ function Function() {
   });
   //스토어에서 지정한 state를 꺼내는 방법
 
-  const dispatch = useDispatch();
   //스토어 state를 setState처럼 변경하는 방법, dispatch는 스토어로 요청을 보내주는 함수
 
   const [calculation, setCalculation] = useState(0);
@@ -162,13 +160,6 @@ function Function() {
             <br />
             {userName.user}님의 입금 예정액은 {inputValue}원 입니다.
           </strong>
-          <button
-            onClick={() => {
-              dispatch(setName());
-            }}
-          >
-            직책 붙히기
-          </button>
         </div>
         <div className="calculation-chart">
           <UserChart
@@ -181,8 +172,10 @@ function Function() {
       </div>
       <div className="function-middle">
         <UserMap mapValue={mapValue}></UserMap>
-        <button onClick={order}>주문받기</button>
-        <Link to="redux">리덕스 연습하러 가기</Link>
+        <button className="order-btn" onClick={order}>
+          <img src="./images/order.png" alt="오토바이 이미지" />
+          주문받기
+        </button>
       </div>
     </div>
   );
