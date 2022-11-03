@@ -1,70 +1,38 @@
-# Getting Started with Create React App
+### 푸드노트서비스 "장부대장" 클론코딩
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+🐶 푸드노트서비스에서 실제 운영중인 "장부대장(https://www.jangboo.kr/jangboo/jangboo.html)"을 개인 공부용으로 클론코딩 하였습니다. 
 
-## Available Scripts
+🐶 퍼블리싱 연습 및 리액트 기능구현, 외부 api 사용 복습, 리덕스 공부용으로 진행한 초미니 프로젝트입니다. 제작기간(1일,,,)
 
-In the project directory, you can run:
+🐶 담당자를 승인 후 진행하였습니다.
 
-### `npm start`
+------------------------------------
+1.퍼블리싱 이미지
+![screencapture-localhost-3000-2022-11-03-21_00_38](https://user-images.githubusercontent.com/98578138/199716839-7c186a3b-fccf-4947-8ad9-2ff3717b4a47.png)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+2.간단한 기능구현
+- 2-1. nivo chart 를 통한 매출액 input 데이터 표출
+<img width="1207" alt="스크린샷 2022-11-03 오후 9 01 45" src="https://user-images.githubusercontent.com/98578138/199717182-0a46736b-dc7e-4f03-9092-dd234e1e3bd4.png">
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- 2-2 카카오 지도 api 사용
+- 2-3 주문받기 버튼 클릭 시 배달 좌표 생성
 
-### `npm test`
+<img width="1156" alt="스크린샷 2022-11-03 오후 9 02 18" src="https://user-images.githubusercontent.com/98578138/199717632-ce5dbcf1-f14f-4ecc-a676-22359165e08a.png">
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+[주문받기]클릭!
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<img width="441" alt="스크린샷 2022-11-03 오후 9 02 32" src="https://user-images.githubusercontent.com/98578138/199717724-4cb36b71-0e97-4001-a41e-ffeecf374aa8.png">
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+3초 후,,,
 
-### `npm run eject`
+<img width="725" alt="스크린샷 2022-11-03 오후 9 02 39" src="https://user-images.githubusercontent.com/98578138/199717776-6e87ee9c-5b39-4be4-8e76-3092aa6dc7b6.png">
+배달좌표 생성!
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+--------------------
+* 정말 리덕스 사용 공부용, 복습용으로 간단하게 만든거라서 퀄리티는 낮습니다...🐥
+* 해당 디자인 저작권은 푸드노트서비스에 있습니다.
